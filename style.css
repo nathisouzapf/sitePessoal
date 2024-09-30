@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1;
+    padding: 2;
+    background-color: rgba(240, 201, 216, 0.753);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 5em; 
+    color: #111111; 
+    margin: 0; 
+}
+
+.container{
+    margin-inline: auto;
+    max-width: 760px;
+}
+
+.header-container {
+    display: flex; 
+    align-items: center;
+}
+
+.mainBanner{
+    width: 30%;
+    border: 2px solid rgb(24, 23, 23);
+    border-radius: 150px;
+}
+
+.menu{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+}
+
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    ;
+}
+
+.subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: bold
+}
+
+.btn{
+    background-color: rgb(228, 157, 173);
+    border-radius: 8px;
+    color: black;
+    display: block;
+    margin-bottom: 15px;
+    margin-inline: auto;
+    padding: 10px;
+    text-decoration: none;
+    width: 125px;
+    text-align: center;
+    font-weight: bold
+}
+
+
